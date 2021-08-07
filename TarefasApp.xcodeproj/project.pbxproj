@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC8CA75D26BEF6E500257895 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8CA75C26BEF6E500257895 /* AppDelegate.swift */; };
+		AC8CA75F26BEF6E500257895 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8CA75E26BEF6E500257895 /* SceneDelegate.swift */; };
+		AC8CA76126BEF6E500257895 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8CA76026BEF6E500257895 /* ViewController.swift */; };
+		AC8CA76426BEF6E500257895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC8CA76226BEF6E500257895 /* Main.storyboard */; };
+		AC8CA76626BEF6E600257895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8CA76526BEF6E600257895 /* Assets.xcassets */; };
+		AC8CA76926BEF6E600257895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC8CA76726BEF6E600257895 /* LaunchScreen.storyboard */; };
+		AC8CA77426BEF6E600257895 /* TarefasAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8CA77326BEF6E600257895 /* TarefasAppTests.swift */; };
+		AC8CA77F26BEF6E600257895 /* TarefasAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8CA77E26BEF6E600257895 /* TarefasAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC8CA77026BEF6E600257895 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC8CA75126BEF6E500257895 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC8CA75826BEF6E500257895;
+			remoteInfo = TarefasApp;
+		};
+		AC8CA77B26BEF6E600257895 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC8CA75126BEF6E500257895 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC8CA75826BEF6E500257895;
+			remoteInfo = TarefasApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC8CA75926BEF6E500257895 /* TarefasApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TarefasApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8CA75C26BEF6E500257895 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC8CA75E26BEF6E500257895 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC8CA76026BEF6E500257895 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC8CA76326BEF6E500257895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC8CA76526BEF6E600257895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC8CA76826BEF6E600257895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC8CA76A26BEF6E600257895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8CA76F26BEF6E600257895 /* TarefasAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TarefasAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8CA77326BEF6E600257895 /* TarefasAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefasAppTests.swift; sourceTree = "<group>"; };
+		AC8CA77526BEF6E600257895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8CA77A26BEF6E600257895 /* TarefasAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TarefasAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8CA77E26BEF6E600257895 /* TarefasAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefasAppUITests.swift; sourceTree = "<group>"; };
+		AC8CA78026BEF6E600257895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC8CA75626BEF6E500257895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8CA76C26BEF6E600257895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8CA77726BEF6E600257895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC8CA75026BEF6E500257895 = {
+			isa = PBXGroup;
+			children = (
+				AC8CA75B26BEF6E500257895 /* TarefasApp */,
+				AC8CA77226BEF6E600257895 /* TarefasAppTests */,
+				AC8CA77D26BEF6E600257895 /* TarefasAppUITests */,
+				AC8CA75A26BEF6E500257895 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC8CA75A26BEF6E500257895 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC8CA75926BEF6E500257895 /* TarefasApp.app */,
+				AC8CA76F26BEF6E600257895 /* TarefasAppTests.xctest */,
+				AC8CA77A26BEF6E600257895 /* TarefasAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC8CA75B26BEF6E500257895 /* TarefasApp */ = {
+			isa = PBXGroup;
+			children = (
+				AC8CA75C26BEF6E500257895 /* AppDelegate.swift */,
+				AC8CA75E26BEF6E500257895 /* SceneDelegate.swift */,
+				AC8CA76026BEF6E500257895 /* ViewController.swift */,
+				AC8CA76226BEF6E500257895 /* Main.storyboard */,
+				AC8CA76526BEF6E600257895 /* Assets.xcassets */,
+				AC8CA76726BEF6E600257895 /* LaunchScreen.storyboard */,
+				AC8CA76A26BEF6E600257895 /* Info.plist */,
+			);
+			path = TarefasApp;
+			sourceTree = "<group>";
+		};
+		AC8CA77226BEF6E600257895 /* TarefasAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC8CA77326BEF6E600257895 /* TarefasAppTests.swift */,
+				AC8CA77526BEF6E600257895 /* Info.plist */,
+			);
+			path = TarefasAppTests;
+			sourceTree = "<group>";
+		};
+		AC8CA77D26BEF6E600257895 /* TarefasAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC8CA77E26BEF6E600257895 /* TarefasAppUITests.swift */,
+				AC8CA78026BEF6E600257895 /* Info.plist */,
+			);
+			path = TarefasAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC8CA75826BEF6E500257895 /* TarefasApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC8CA78326BEF6E600257895 /* Build configuration list for PBXNativeTarget "TarefasApp" */;
+			buildPhases = (
+				AC8CA75526BEF6E500257895 /* Sources */,
+				AC8CA75626BEF6E500257895 /* Frameworks */,
+				AC8CA75726BEF6E500257895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TarefasApp;
+			productName = TarefasApp;
+			productReference = AC8CA75926BEF6E500257895 /* TarefasApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC8CA76E26BEF6E600257895 /* TarefasAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC8CA78626BEF6E600257895 /* Build configuration list for PBXNativeTarget "TarefasAppTests" */;
+			buildPhases = (
+				AC8CA76B26BEF6E600257895 /* Sources */,
+				AC8CA76C26BEF6E600257895 /* Frameworks */,
+				AC8CA76D26BEF6E600257895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC8CA77126BEF6E600257895 /* PBXTargetDependency */,
+			);
+			name = TarefasAppTests;
+			productName = TarefasAppTests;
+			productReference = AC8CA76F26BEF6E600257895 /* TarefasAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC8CA77926BEF6E600257895 /* TarefasAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC8CA78926BEF6E600257895 /* Build configuration list for PBXNativeTarget "TarefasAppUITests" */;
+			buildPhases = (
+				AC8CA77626BEF6E600257895 /* Sources */,
+				AC8CA77726BEF6E600257895 /* Frameworks */,
+				AC8CA77826BEF6E600257895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC8CA77C26BEF6E600257895 /* PBXTargetDependency */,
+			);
+			name = TarefasAppUITests;
+			productName = TarefasAppUITests;
+			productReference = AC8CA77A26BEF6E600257895 /* TarefasAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC8CA75126BEF6E500257895 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					AC8CA75826BEF6E500257895 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					AC8CA76E26BEF6E600257895 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = AC8CA75826BEF6E500257895;
+					};
+					AC8CA77926BEF6E600257895 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = AC8CA75826BEF6E500257895;
+					};
+				};
+			};
+			buildConfigurationList = AC8CA75426BEF6E500257895 /* Build configuration list for PBXProject "TarefasApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC8CA75026BEF6E500257895;
+			productRefGroup = AC8CA75A26BEF6E500257895 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC8CA75826BEF6E500257895 /* TarefasApp */,
+				AC8CA76E26BEF6E600257895 /* TarefasAppTests */,
+				AC8CA77926BEF6E600257895 /* TarefasAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC8CA75726BEF6E500257895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8CA76926BEF6E600257895 /* LaunchScreen.storyboard in Resources */,
+				AC8CA76626BEF6E600257895 /* Assets.xcassets in Resources */,
+				AC8CA76426BEF6E500257895 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8CA76D26BEF6E600257895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8CA77826BEF6E600257895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC8CA75526BEF6E500257895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8CA76126BEF6E500257895 /* ViewController.swift in Sources */,
+				AC8CA75D26BEF6E500257895 /* AppDelegate.swift in Sources */,
+				AC8CA75F26BEF6E500257895 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8CA76B26BEF6E600257895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8CA77426BEF6E600257895 /* TarefasAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8CA77626BEF6E600257895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8CA77F26BEF6E600257895 /* TarefasAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC8CA77126BEF6E600257895 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC8CA75826BEF6E500257895 /* TarefasApp */;
+			targetProxy = AC8CA77026BEF6E600257895 /* PBXContainerItemProxy */;
+		};
+		AC8CA77C26BEF6E600257895 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC8CA75826BEF6E500257895 /* TarefasApp */;
+			targetProxy = AC8CA77B26BEF6E600257895 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC8CA76226BEF6E500257895 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC8CA76326BEF6E500257895 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC8CA76726BEF6E600257895 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC8CA76826BEF6E600257895 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC8CA78126BEF6E600257895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC8CA78226BEF6E600257895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC8CA78426BEF6E600257895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLK7FC7P3D;
+				INFOPLIST_FILE = TarefasApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.poadev.TarefasApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC8CA78526BEF6E600257895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLK7FC7P3D;
+				INFOPLIST_FILE = TarefasApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.poadev.TarefasApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC8CA78726BEF6E600257895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLK7FC7P3D;
+				INFOPLIST_FILE = TarefasAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.poadev.TarefasAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TarefasApp.app/TarefasApp";
+			};
+			name = Debug;
+		};
+		AC8CA78826BEF6E600257895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLK7FC7P3D;
+				INFOPLIST_FILE = TarefasAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.poadev.TarefasAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TarefasApp.app/TarefasApp";
+			};
+			name = Release;
+		};
+		AC8CA78A26BEF6E600257895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLK7FC7P3D;
+				INFOPLIST_FILE = TarefasAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.poadev.TarefasAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TarefasApp;
+			};
+			name = Debug;
+		};
+		AC8CA78B26BEF6E600257895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLK7FC7P3D;
+				INFOPLIST_FILE = TarefasAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.poadev.TarefasAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TarefasApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC8CA75426BEF6E500257895 /* Build configuration list for PBXProject "TarefasApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8CA78126BEF6E600257895 /* Debug */,
+				AC8CA78226BEF6E600257895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC8CA78326BEF6E600257895 /* Build configuration list for PBXNativeTarget "TarefasApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8CA78426BEF6E600257895 /* Debug */,
+				AC8CA78526BEF6E600257895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC8CA78626BEF6E600257895 /* Build configuration list for PBXNativeTarget "TarefasAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8CA78726BEF6E600257895 /* Debug */,
+				AC8CA78826BEF6E600257895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC8CA78926BEF6E600257895 /* Build configuration list for PBXNativeTarget "TarefasAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8CA78A26BEF6E600257895 /* Debug */,
+				AC8CA78B26BEF6E600257895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC8CA75126BEF6E500257895 /* Project object */;
+}
